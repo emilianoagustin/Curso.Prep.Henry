@@ -1,0 +1,10 @@
+Una variable permite guardar cualquier valor o dato para ser utilizado o llamado cuando sea necesario.
+
+Un string, tambien se la llama cadena, es un bloque de texto. Para que sea una string se tiene que escribir entre comillas.
+
+Una funcion engloba un bloque de codigo que se puede utilizar y re utilizar cada vez que se llama o invoca a esa funcion. A una funcion se le pueden pasar argumentos dentro de los parentesis que luego son utilizados como variable dentro de la funcion y toman su valor cuando se invoca la funcion. Para que la funcion nos de un valor o dato luego de su ejecucion se utiliza la palabra return, que una vez utilizada finaliza el flujo de la ejecucion y retorna el valor o dato especificado.
+ 
+Un if es un controlador de flujo que permite, a traves de una declaracion o sentencia, ejecutar un codigo si se cumple una determinada condicion y en caso contrario realizar otra sentencia.
+
+Los valores booleanos se usan para determinar si una declaracion es verdadera o falsa y se utilizan con las palabras true y false.
+
