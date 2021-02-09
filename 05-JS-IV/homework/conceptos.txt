@@ -1,0 +1,34 @@
+En javascript casi todo es un objeto, los objetos son tambien contenedores de datos permiten tener un conjunto de claves y valores sobre una misma cosa, se inicializan con {}, un ejemplo de esto seria:
+
+const car = {
+	color: 'red',
+	brand: 'toyota',
+	model: 'etios'
+}
+
+el objeto CAR tiene tres claves COLOR, BRAND y MODEL y cada una tiene su valor, se separan entre si por medio de una coma.
+
+Estas claves tambien son conocidas como propiedades y para poder leer su valor debemos utilizar el nombre del objeto y con una notacion de punto o con brackets a la propiedad, ejemplo:
+
+car.brand - me devuelve el valor de 'toyota'
+car['model'] - me devuelve el valor de 'etios'
+
+Asi podemos diferenciar entre las dos formas de obtener el valor de una propiedad, se suele utilizar la notacion de puntos ya que es mas rapida pero con los brackets podemos utilizar dentro de ellos variables o manejarnos como si se tratara de un array colocando un numero de index.
+
+Los metodos son funciones que se pasan como propiedades de un objeto, tambien se invocan colocando el nombre del objeto al que pertenecen y con un punto, ejemplo:
+
+const car ={
+	myFunction = function() {
+		console.log('Esto es un metodo')
+	}
+}
+
+car.myFunction()
+
+Ya que en los objetos no tenemos numeros de indices como en los arrays no podemos utilizar los bucle for convencionales. Para los objetos existe el bucle "for...in". Se declara:
+
+for (let bar in car){
+	...code logic
+}
+
+Se crea una variable, luego la palabra reservada IN y por ultimo el objeto. Este bucle recorre las claves del objeto y finaliza cuando se hayan iterado todas las claves. Tener en cuenta que si iteramos sobre un array la variable devolvera el indice de los items del array.
