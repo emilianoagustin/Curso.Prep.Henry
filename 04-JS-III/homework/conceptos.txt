@@ -1,0 +1,7 @@
+Un array es una variable que guarda una lista de elementos, estos elementos pueden ser de distintos tipos, strings, numeros, funciones, objetos, booleanos, etc. Incluso puede guardar otros arrays. 
+
+Ejemplo de array: 
+var myArray = ['hola', 5, true, function foo (), [1,2,3]]
+
+El array se declara como una variable y los elementos de la lista se encierran en brackets y se separan por comas. Cada uno de estos items de la lista tiene un numero de index, con ese numero podemos acceder a el. Los numeros de index se empiezan a contar del 0 en adelante, de esta forma en el array del ejemplo los numeros de index se leerian 0 = 'hola', 1 = 5, 2 = true, y asi sucesivamente hasta llegar al ultimo elemento.
+Hay que tener en cuenta que la longitud del array, o sea la cantidad de elementos que hay dentro, si se cuenta del 1 en adelante, por eso en el ejemplo tenemos un array con 5 elementos de length. Con la propiedad length podemos determinar la longitud del array, su sintaxis seria array.length. De esta sabiendo que el index de los elementos se cuenta a partir del 0 y la longitud del array desde el 1, para acceder al utimo elemento de un array podriamos hacer array.length - 1.
