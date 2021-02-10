@@ -1,0 +1,4 @@
+Prototype es como un diccionario de metodos. Esta propiedad guarda varios metodos o funciones que poseen los objetos por defecto, se pueden agregar otros metodos creados por nosotros mismos para que sean utilizados por los objetos que queramos.
+
+
+El constructor de clases es metodo en el que se genera el template con el cual luego se van a crear e instanciar los objetos, en el se pasan todas las propiedades con los valores necesarios que va a utilizar el objeto.
