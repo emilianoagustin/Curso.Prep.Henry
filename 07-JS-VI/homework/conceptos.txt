@@ -1,0 +1,17 @@
+Funciones Callback:
+
+Las funciones callback son funciones que se pasan como parametro de otras funciones, de esta forma puedo declarar una funcion con un saludo:
+
+function saludar (nombre) {
+	return `Hola ${nombre}`
+}
+
+Y luego declarar de la siguiente forma:
+
+function bienvenida (nombre, saludarConNombre) {
+	return saludarConNombre(nombre)
+}
+
+Luego llamamos a la funcion bienvenida y pasamos los parametros de nombre y la funciona de callback saludar:
+
+bienvenida('Juan', saludar) // obteniendo asi el return `Hola Juan`
